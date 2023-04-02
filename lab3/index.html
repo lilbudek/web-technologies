@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>lab3</title>
+</head>
+
+<body>
+    <form action="write.php" method="post" enctype="multipart/form-data">
+        <label for="name">Твоё Имя:</label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="15" size="20">
+
+        <label for="fam">Твоя Фамилия:</label>
+        <input type="text" id="fam" name="fam" required minlength="2" maxlength="15" size="20">
+
+        <fieldset>
+            <legend>С какого ты факультета?</legend>
+
+            <div>
+                <input type="radio" id="imit" name="faculty" value="ИМИТ" required>
+                <label for="imit">ИМИТ</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ictef" name="faculty" value="ИЦТЭФ">
+                <label for="ictef">ИЦТЭФ</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ibb" name="faculty" value="ИББ">
+                <label for="ibb">ИББ</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ign" name="faculty" value="ИГН">
+                <label for="ign">ИГН</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ingeo" name="faculty" value="ИНГЕО">
+                <label for="ingeo">ИНГЕО</label>
+            </div>
+
+            <div>
+                <input type="radio" id="iimo" name="faculty" value="ИИМО">
+                <label for="iimo">ИИМО</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ihhft" name="faculty" value="ИХиХФТ">
+                <label for="ihhft">ИХиХФТ</label>
+            </div>
+
+            <div>
+                <input type="radio" id="college" name="faculty" value="Колледж">
+                <label for="college">Колледж</label>
+            </div>
+
+            <div>
+                <input type="radio" id="miemis" name="faculty" value="МИЭМИС">
+                <label for="miemis">МИЭМИС</label>
+            </div>
+        </fieldset>
+
+        <p><select size="3" multiple name="mood[]" required>
+                <option disabled>Какое у тебя настроение?</option>
+                <option value="Хорошее">Хорошее</option>
+                <option value="Очень хорошее">Очень хорошее</option>
+                <option value="Супер">Супер</option>
+            </select></p>
+
+        <fieldset>
+            <legend>Любишь свой универ?</legend>
+
+            <div>
+                <input type="checkbox" id="yes" name="yes" checked>
+                <label for="yes">Да!</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="superyes" name="superyes">
+                <label for="superyes">Конечно, да!</label>
+            </div>
+        </fieldset>
+
+        <p>Прикрепи свою лучшую фотокарточку! (JPG, JPEG, PNG)</p>
+        <p><input type="file" name="image" accept="image/*">
+
+        <div>
+            <button type="submit">Окей</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

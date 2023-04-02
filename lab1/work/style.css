@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+.picture {
+    padding: 10px;
+    float: right;
+}
+
+.header-line {
+    width: 100%;
+    background-color: #d3d3d3;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.header-logo {
+    padding: 10px;
+}
+
+.name {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.profile {
+    padding-right: 10px;
+}
+
+.field {
+    padding-bottom: 5px;
+}
+
+.field label {
+    display: block;
+    width: 70px;
+    height: 15px;
+}
+
+
+.under-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    background-color: #d3d3d3;
+}
+
+.bar {
+    flex: 0.15;
+    /*width: 10%;*/
+}
+
+ul.pages {
+    text-align: center;
+}
+
+ul.pages li {
+    list-style-type: none;
+}
+
+.content {
+    flex: 0.85;
+   /* width: 90%;*/
+  /*  margin-left: 45px;*/
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.tb td{
+    height: 50px;
+    width: 125px;
+    border: 3px solid #333;
+    text-align: center;
+}
+
+.plug {
+    display: none
+}
+
+
+

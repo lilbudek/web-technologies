@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.over-head {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    background-color: #d3d3d3;
+    padding-bottom: 15px;
+}
+
+.over-head a{
+    color: black;
+}
+
+.head {
+    display: flex;
+}
+
+.logo {
+    flex: 0.2;
+    text-align: center;
+}
+
+.name {
+    flex: 0.4;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    flex: 0.8;
+}
+
+.lk {
+    flex: 0.6;
+    text-align: center;
+
+}
+
+.lk a {
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bar {
+    font-size: larger;
+    text-align: left;
+    flex: 0.2;
+}
+
+.bar li {
+    font-size: small;
+    list-style-type: none;
+}
+
+.content {
+    flex: 0.8;
+
+}
+
+.drills1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.drills2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.drel {
+    flex: 0.3333;
+    text-align: center;
+}
+
+.picture {
+    float: right;
+}
+
+.about {
+    
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.underground {
+    margin-top: 5px;
+}

@@ -1,0 +1,35 @@
+body {
+   font-family: Helvetica;
+   display: flex;
+}
+
+
+#content {
+   flex: 0.8;
+}
+
+#sidebar {
+   flex: 0.2;
+}
+
+/* ------------------------------------------------------------------- 
+ * ## links
+ * ------------------------------------------------------------------- */
+a {
+   color: #0054a5;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+   color: #000000;
+}
+
+a:hover,
+a:active {
+   outline: 0;
+}
+
+
