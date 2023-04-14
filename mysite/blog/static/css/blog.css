@@ -12,9 +12,10 @@ body {
    flex: 0.2;
 }
 
-/* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
+#logo {
+   text-align: center;
+}
+
 a {
    color: #0054a5;
    -webkit-transition: all 0.3s ease-in-out;
@@ -32,4 +33,12 @@ a:active {
    outline: 0;
 }
 
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
 
+label {
+    padding-right: 10px;
+}
